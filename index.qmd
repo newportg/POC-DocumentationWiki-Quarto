@@ -12,7 +12,9 @@ Quarto is an open-source scientific and technical publishing system that allows 
 
 
 - Site : [Quarto](https://quarto.org/)
-- Example Site : [Quarto Documentation](https://quarto.org/docs/)
+- Examples 
+  - [Personal Site](https://newportg.github.io/)
+  - [Frontify SAD](https://newportg.github.io/Quarto-Frontify/)
 
 ## Markdown support in Quarto
 [Pandoc markdown](https://pandoc.org/MANUAL.html#pandocs-markdown) is an extended and slightly revised version of John Gruber’s [Markdown](https://daringfireball.net/projects/markdown/) syntax.
