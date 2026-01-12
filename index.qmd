@@ -46,6 +46,7 @@ function hello_world()
 end
 ```
 
+## Mermaid and Graphviz Examples
 ```{mermaid}
 graph TD;
     A-->B;
@@ -61,6 +62,7 @@ digraph G {
 }
 ``` 
 
+## PlantUML Examples
 ```{.plantuml pumlfile="c4"}
 ```
 

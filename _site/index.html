@@ -185,12 +185,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <h1>Quarto</h1>
 <p>Quarto is an open-source scientific and technical publishing system that allows you to create dynamic content using Markdown and integrate executable code (Python, R, Julia, etc.) into your documentation.</p>
 <ul>
-<li>GitHub Repo as Storage: Yes, this is Quarto’s native approach. Your documentation is authored in plain-text Markdown files (or .qmd files) and stored directly in your GitHub repository alongside your code.</li>
-<li>Workflow: It fully embraces the “docs-as-code” philosophy. You use your standard development tools (VS Code, RStudio, command line) to edit files and the entire process (pull requests, code review, versioning) is managed via Git and GitHub.</li>
-<li>Publishing: Quarto can be published to a variety of destinations, including GitHub Pages, using the quarto publish command or automated with GitHub Actions.</li>
-<li>Best for: Highly technical teams who want documentation to be a seamless part of their existing engineering workflow and codebase, and require a high degree of customisation and the ability to embed code execution results.</li>
+<li><p>GitHub Repo as Storage: Yes, this is Quarto’s native approach. Your documentation is authored in plain-text Markdown files (or .qmd files) and stored directly in your GitHub repository alongside your code.</p></li>
+<li><p>Workflow: It fully embraces the “docs-as-code” philosophy. You use your standard development tools (VS Code, RStudio, command line) to edit files and the entire process (pull requests, code review, versioning) is managed via Git and GitHub.</p></li>
+<li><p>Publishing: Quarto can be published to a variety of destinations, including GitHub Pages, using the quarto publish command or automated with GitHub Actions.</p></li>
+<li><p>Best for: Highly technical teams who want documentation to be a seamless part of their existing engineering workflow and codebase, and require a high degree of customisation and the ability to embed code execution results.</p></li>
+<li><p>Site : <a href="https://quarto.org/">Quarto</a></p></li>
+<li><p>Example Site : <a href="https://quarto.org/docs/">Quarto Documentation</a></p></li>
 </ul>
-<p>Site : <a href="https://quarto.org/">Quarto</a> Example Site : <a href="https://quarto.org/docs/">Quarto Documentation</a></p>
 <section id="markdown-support-in-quarto" class="level2">
 <h2 class="anchored" data-anchor-id="markdown-support-in-quarto">Markdown support in Quarto</h2>
 <p><a href="https://pandoc.org/MANUAL.html#pandocs-markdown">Pandoc markdown</a> is an extended and slightly revised version of John Gruber’s <a href="https://daringfireball.net/projects/markdown/">Markdown</a> syntax.</p>
@@ -381,7 +382,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp('/' + window.location.host + '/');
+        var filterRegex = new RegExp("https:\/\/newportg\.github\.io\/POC-DocumentationWiki-Quarto\/");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
